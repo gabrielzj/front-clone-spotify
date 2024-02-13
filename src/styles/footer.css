@@ -1,0 +1,28 @@
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: auto;
+    height: 50px;
+    background-color: blue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 15px;
+    font-family: var(--font);
+    background-image: linear-gradient(to right, rgb(100, 176, 100), rgb(170, 121, 197), rgb(129, 174, 237));
+}
+
+footer .footer_text {
+    color: white;
+    font-size: 14px;
+}
+
+.footer_btn button{
+    padding: 15px;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: var(--font);
+}
