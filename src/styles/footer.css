@@ -16,13 +16,13 @@
     border-radius: 10px;
 }
 
-footer .footer_text {
+footer .footer__text {
     color: white;
     font-size: 15px;
     font-weight: 600;
 }
 
-.footer_btn button {
+.footer__btn button {
     padding: 15px;
     border-radius: 30px;
     font-weight: bold;
