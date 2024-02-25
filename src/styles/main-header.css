@@ -79,10 +79,10 @@
 }
 
 .header__login .subscribe {
-  color: #a7a7a7;
+  color: var(--text-sub);
   font-size: 16px;
   font-weight: 700;
-  background-color: var(--text-sub);
+  background-color: transparent;
   margin-right: 32px;
   /* margin-left: 32px; */
   text-decoration: none;
