@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Spotify</title>
+    <link rel="shortcut icon" href="./src/assets/icons/favicon.png" />
     <link rel="stylesheet" href="./src/styles/reset.css" />
     <link rel="stylesheet" href="./src/styles/var.css" />
     <link rel="stylesheet" href="./src/styles/sidebar.css" />
@@ -248,12 +249,12 @@
               </div>
             </div>
           </div>
-
+          <!-- Inicialmente hidden -->
           <div id="result-artist" class="hidden">
             <div class="grid-container">
               <div class="artist-card" id="">
                 <div class="card-img">
-                  <img id="artist-img" class="artist-img" />
+                  <img src="" id="artist-img" class="artist-img" />
                   <div class="play">
                     <span class="fa fa-solid fa-play"></span>
                   </div>
@@ -282,5 +283,7 @@
         <button>Inscreva-se grátis</button>
       </a>
     </footer>
+
+    <script type="text/javascript" src="./script.js"></script>
   </body>
 </html>
