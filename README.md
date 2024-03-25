@@ -11,7 +11,7 @@ First clone the repository
 ~~~bash
 git clone https://github.com/gabrielzj/front-clone-spotify
 ~~~
-Make sure to install json-server
+Make sure node is installed and then continue to install json server
 ~~~bash
 npm intall json-server
 ~~~
